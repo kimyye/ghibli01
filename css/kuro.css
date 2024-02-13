@@ -1,0 +1,49 @@
+
+.expand_bg{position: relative;}
+.balloon1,.balloon2,.balloon3{
+    z-index:1;
+    width:10%;
+    position: absolute;
+}
+.balloon1{
+    width: 12%;
+    top: 29%;
+    left: 24%;
+}
+.balloon2{
+    top: 47%;
+    left:49%;
+}
+.balloon3{
+    top: 32%;
+    left:64%;
+}
+.kuro_box{
+    width:100%;
+    height: 100%;
+    pointer-events: all;
+}
+.kuro_box>a{
+    width: 100%;
+    height:100%;
+    display: block;
+}
+@media screen and (max-width: 390px){
+    .balloon1,.balloon2,.balloon3{
+        z-index:1;
+        width:36%;
+}
+.balloon1{
+    top: 33%;
+    left: 7%;
+}
+.balloon2{
+    top: 65%;
+    left:40%;
+}
+.balloon3{
+    top: 41%;
+    left:58%;
+}
+
+}
